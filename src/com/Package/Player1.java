@@ -36,6 +36,15 @@ public class Player1 {
         }
     }
 
+    public void heal(){
+        if(this.health <=0 ) System.out.println("Player is dead. Healing not possible");
+        else{
+            this.health=100;
+            System.out.println("Health is " + this.health);
+        }
+
+    }
+
     public String getName() {
         return name;
     }
