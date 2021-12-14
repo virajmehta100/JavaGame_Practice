@@ -20,7 +20,7 @@ public class Player2 extends Player1 {
         }if(!armour){
             this.health -= 30;
             if(this.health <= 0) this.health = 0;
-            System.out.println("Armour is on. Got hit by gun 1. Health is reduced by 30." +
+            System.out.println("Armour is off. Got hit by gun 1. Health is reduced by 30." +
                     "New health is " + this.health);
         }
         if(this.health == 0){
@@ -38,7 +38,7 @@ public class Player2 extends Player1 {
         }if(!armour){
             this.health -= 50;
             if(this.health <= 0) this.health = 0;
-            System.out.println("Armour is on. Got hit by gun 1. Health is reduced by 50." +
+            System.out.println("Armour is off. Got hit by gun 1. Health is reduced by 50." +
                     "New health is " + this.health);
         }
         if(this.health == 0){
